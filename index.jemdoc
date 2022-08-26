@@ -1,0 +1,44 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: nofooter
+= Yibing Liu
+
+~~~
+{}{img_left}{Aviator.jpg}{alt text}{200px}{200px}{}
+Yibing Liu \n
+Ph.D. Student \n 
+[https://www.cs.cityu.edu.hk/ Department of Computer Science] \n
+[https://www.cityu.edu.hk/ City University of Hong Kong]  \n
+Contact: [lyibing112@gmail.com Email], [https://scholar.google.com/citations?user=NcmJACMAAAAJ&hl=zh-CN Google Scholar], [https://github.com/BierOne Github]
+~~~
+
+== Short Bio 
+I am currently a Ph.D. student in the Department of Computer Science at City University of Hong Kong. Before that, I received my B.E. degree in School of Computer Science and Technology from Shandong University in 2020. My research interests include /machine learning, interpretability,/ and /domain generalization./
+
+== News 
+- \[15-05-2022\] One paper is accepted by ICML 2022!
+
+== Experiences 
+
+*City University of Hong Kong* \n
+- Ph.D. in Computer Science, July 2021 - Now
+- Advisor: [https://www.cs.cityu.edu.hk/~shiqwang/ Prof. Shiqi Wang] and [https://hlli1991.github.io/ Prof. Haoliang Li]
+
+*The Hong Kong Polytechnic University* \n
+- Research Assistant (RA), Jan 2021 - June 2021 \n
+- Advisor: [http://www4.comp.polyu.edu.hk/~jing1li/ Prof. Jing Li]
+
+*Shandong University* \n
+- Bachelor in Computer Science and Technology, Sep 2016 - June 2020
+- Advisor: [https://liqiangnie.github.io/ Prof. Liqiang Nie] and [https://xuemengsong.github.io/ Prof. Xuemeng Song]
+- Co-Mentor: [https://guoyang9.github.io/ Dr. Yangyang Guo]
+
+== Professional Services
+- Invited Reviewer for *International Conference on Machine Learning (ICML)* 2022
+- Invited Reviewer for *ACM Transactions on Multimedia Computing, Communications, and Applications (ToMM)*
+- Invited Reviewer for *ACM Multimedia Workshop on MCFR* 2022
+
+
+== Honors
+- Outstanding Graduate of Shandong University, 2020
+- The First Prize Scholarship at Shandong University (Top 5%), 2017-2019
+- National Scholarship for Encouragement, 2018

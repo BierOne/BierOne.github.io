@@ -1,0 +1,21 @@
+# jemdoc: menu{MENU}{publication.html}
+# jemdoc: nofooter
+= Publications 
+
+- Conference Papers
+-- Rethinking Attention-Model Explainability through Faithfulness Violation Test ([https://proceedings.mlr.press/v162/liu22i.html Paper] && [https://github.com/BierOne/Attention-Faithfulness Code]) \n
+*Yibing Liu*, Haoliang Li, Yangyang Guo, Chenqi Kong, Jing Li, Shiqi Wang \n
+/International Conference on Machine Learning (ICML) 2022/
+-- A Unified End-to-End Retriever-Reader Framework for Knowledge-based VQA ([https://arxiv.org/abs/2206.14989 Paper] && [https://github.com/guoyang9/UnifER Code])\n
+Yangyang Guo, Liqiang Nie, Yongkang Wong, *Yibing Liu*, Zhiyong Cheng, Mohan Kankanhalli \n
+/ACM Multimedia (ACM MM) 2022/
+-- Quantifying and Alleviating the Language Prior Problem in Visual Question Answering ([https://dl.acm.org/doi/10.1145/3331184.3331186 Paper] && [https://github.com/guoyang9/vqa-prior Code]) \n
+Yangyang Guo, Zhiyong Cheng, Liqiang Nie, *Yibing Liu*, Yinglong Wang, Mohan Kankanhalli \n
+/ACM SIGIR 2019/
+
+- Journal Papers
+-- Answer Questions with Right Image Regions: A Visual Attention Regularization Approach ([https://dl.acm.org/doi/10.1145/3498340 Paper] && [https://github.com/BierOne/VQA-AttReg Code]) \n
+*Yibing Liu*, Yangyang Guo, Jianhua Yin, Xuemeng Song, Weifeng Liu, Liqiang Nie, Min Zhang \n
+/ACM Transactions on Multimedia Computing, Communications, and Applications (ToMM) 2022/
+
+
