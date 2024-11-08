@@ -47,7 +47,7 @@ hidden: false
 <div class="row mt-3">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="photo-container" style="height: 300px;">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5681.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5681.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
     <div class="col-sm-3 mt-3 mt-md-0">
@@ -64,7 +64,7 @@ hidden: false
 <div class="row mt-1">
     <div class="col-sm-12 mt-3 mt-md-0">
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5664.jpeg" class="img-fluid rounded z-depth-1"%}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5664.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -83,12 +83,12 @@ hidden: false
 <div class="row mt-3">
     <div class="col-sm-5 mt-3 mt-md-0">
         <div class="photo-container" style="height: 300px;">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5777.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5777.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
         <div class="photo-container" style="height: 300px;">
-            {% include figure.html path="assets/img/japan/okinawa/sumire1.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/sumire1.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -113,7 +113,7 @@ Ps. as I am not comfortable at that time, I didn't take any photos underwater :\
 <div class="row mt-4">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5818.gif" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5818.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="caption">
             [Upper] BBQ at Sumire! [Upper Right] Me with Yoshiki-san. [Lower Right] Snorkeling with Yoshiki-san and his mom!.
@@ -121,10 +121,10 @@ Ps. as I am not comfortable at that time, I didn't take any photos underwater :\
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/yoshiki.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/yoshiki.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/sumire2.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/sumire2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -137,7 +137,7 @@ Ps. as I am not comfortable at that time, I didn't take any photos underwater :\
 <div class="row mt-4">
     <div class="col-sm-6 mt-3 mt-md-0">
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5967.gif" class="img-fluid rounded z-depth-1" %}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5967.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
     <div class="col-sm-6 mt-3 mt-md-0">
@@ -152,7 +152,7 @@ Ps. as I am not comfortable at that time, I didn't take any photos underwater :\
 <div class="row mt-1">
     <div class="col-sm-12 mt-3 mt-md-0">
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5972.jpeg" class="img-fluid rounded z-depth-1"%}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5972.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -191,7 +191,7 @@ To memorize every person, I wrote down their stories into my diary:
     </div>
     <div class="col-sm-7 mt-3 mt-md-0">
         <div class="photo-container" style="height: 400px;">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_5999.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_5999.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
@@ -229,12 +229,12 @@ I met Koichiro san here, who was from Tokyo and was a third-year high school stu
 <div class="row mt-3 justify-content-center">
     <div class="col-sm-7">
         <div class="photo-container"  style="height: 580px;">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_6161.gif" class="img-fluid rounded z-depth-1"%}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_6161.gif" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
     <div class="col-sm-5">
         <div class="photo-container"  style="height: 300px;">
-            {% include figure.html path="assets/img/japan/okinawa/IMG_6100.jpeg" class="img-fluid rounded z-depth-1"%}
+            {% include figure.html path="assets/img/japan/okinawa/IMG_6100.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="photo-container" style="height: 280px;">
             {% include figure.html path="assets/img/japan/okinawa/IMG_6103.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
