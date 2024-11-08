@@ -124,7 +124,7 @@ Ps. as I am not comfortable at that time, I didn't take any photos underwater :\
             {% include figure.html path="assets/img/japan/okinawa/yoshiki.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
         <div class="photo-container">
-            {% include figure.html path="assets/img/japan/okinawa/sumire2.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
+            {% include figure.html path="assets/img/japan/okinawa/sumire3.jpeg" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
 </div>
