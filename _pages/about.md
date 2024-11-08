@@ -3,10 +3,10 @@ layout: about
 title: about
 permalink: /
 subtitle: |+
-  Leading Strategic Explorations team at <a href="https://openai.com/">OpenAI</a><br><br>
-  Incoming Assistant Professor, <br>
-  Electrical Engineering and Computing + Mathematical Sciences, <br>
-  <a href="https://www.caltech.edu">California Institute of Technology (Caltech)</a>.
+  Ph.D. Student, <br>
+  <a href="https://www.cs.cityu.edu.hk/">Department of Computer Science</a>, <br>
+  <a href="https://www.cityu.edu.hk/">City University of Hong Kong</a>, <br>
+  Kowloon, Hong Kong SAR. <br>
 
 profile:
   image: profile.jpg
@@ -16,8 +16,44 @@ profile:
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+
+teaching: true # includes teaching at the bottom of the page
+teaching_content: |+
+   CS4187 Computer Vision for Interactivity, 2023-2024 & 2024-2025 Semester A <br>
+   CS5187 Vision and Image, 2022-2023 Semester B <br>
+   CS4187 Computer Vision for Interactivity, 2022-2023 Semester A <br>
+   CS4296/CS5296 Cloud Computing, 2021-2022 Semester B <br>
+   CS1102 Introduction to Computer Studies, 2021-2022 Semester A <br>
+
+services: true # includes professional services at the bottom of the page
+services_content: |+
+  <b>Conference Reviewer</b>: ICLR 2025, ICML 2024, ICLR 2024, NeruIPS 2023, ICML 2022 <br>
+  <b>Journal Reviewer</b>: IEEE TKDE, TCYB, TCSVT, ACM ToMM <br>
+  <b>Invited PC member</b> for short papers track at WWW 2024 <br>
+
+honors: true # includes honors at the bottom of the page
+honors_content: |+
+  <b> Institutional Research Tuition Scholarship at CityU</b>, 2022 & 2024   <br>
+  <b> Outstanding Graduate of Shandong University</b>, 2020<br> 
+  <b> The First Prize Scholarship at Shandong University (Top 5%)</b>, 2017-2019  <br>
+  <b> National Scholarship for Encouragement</b>, 2018 <br>
+
 ---
 
-**Research:** My goal is to build powerful AI models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I am currently focused on developing transferable techniques to improve generative models, including their training methodologies, architecture design, alignment, robustness, evaluation techniques and inference efficiency. I am also interested in generative modeling as a tool for scientific discovery. I invented many foundational concepts and techniques in (score-based) diffusion models, for which you can find more in a [blog post](/blog/2021/score/) and a [quanta magazine article](https://www.quantamagazine.org/the-physics-principle-that-inspired-modern-ai-art-20230105/).
+I am currently a Ph.D. student in the Department of Computer Science at [City University of Hong Kong](https://www.cityu.edu.hk/) supervised by [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/). From Mar. 2024 to Aug. 2024, I was a visiting scholar at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), under the supervision of [Prof. Lei Ma](https://www.malei.org). Before that, I received my B.E. degree in School of Computer Science and Technology from [Shandong University](https://www.en.sdu.edu.cn) with first class honours in 2020. 
 
-**Previously:** I received my Ph.D. in Computer Science from [Stanford University](https://www.stanford.edu), advised by [Stefano Ermon](https://cs.stanford.edu/~ermon). I was a research intern at [Google Brain](https://research.google/teams/brain/), Uber ATG, and [Microsoft Research](https://www.microsoft.com/en-us/research/lab/microsoft-research-cambridge/). I obtained my Bachelor's degree in Mathematics and Physics from [Tsinghua University](https://www.tsinghua.edu.cn/), where I worked with [Jun Zhu](http://ml.cs.tsinghua.edu.cn/~jun/index.shtml), [Raquel Urtasun](http://www.cs.toronto.edu/~urtasun/), and [Richard Zemel](http://www.cs.toronto.edu/~zemel/inquiry/home.php).
+**Research:** I have broad interests in Trustworthy machine learning, Theoretical interpretation of deep learning models, and Out-of-distribution detection and generalization. I am enthusiastic about understanding the internal workings of machine learning algorithms and designing tools to make them explainable and robust. 
+
+
+<!-- <details>
+<summary><b>Hobby</b></summary> I love backpacking and adventuring. In May 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
+Seeking a change, I set out on my first solo and long trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this experience.
+</details><br> -->
+
+
+**Mis:** I love backpacking and adventuring. In May 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
+Seeking a change, I set out on my first solo trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this experience.
+
+
+
+

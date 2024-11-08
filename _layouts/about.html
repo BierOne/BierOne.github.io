@@ -25,7 +25,7 @@ layout: default
             </div>                                   
             <div class="col-sm-9">          
               <h1 class="post-title">
-                {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} {%- else -%}{{ site.title }}{%- endif %} (宋飏)
+                {% if site.title == "blank" -%}{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }} {%- else -%}{{ site.title }}{%- endif %}
               </h1>
               <p class="desc">{{ page.subtitle }}</p>  
               {%- if page.profile.address %}
@@ -56,7 +56,33 @@ layout: default
             <!-- Selected papers -->
             {%- include selected_papers.html %}
           {%- endif %}
- 
+
+
+          {% if page.teaching -%}
+          <!-- Service -->
+          <div class="teaching">
+            <h2>teaching assistant</h2>
+            {{page.teaching_content}}
+          </div>
+          {%- endif %}
+
+          {% if page.services -%}
+          <!-- Service -->
+          <div class="service">
+            <h2>professional services</h2>
+            {{page.services_content}}
+          </div>
+          {%- endif %}
+
+          {% if page.honors -%}
+          <!-- Service -->
+          <div class="honors">
+            <h2>honors</h2>
+            {{page.honors_content}}
+          </div>
+          {%- endif %}
+
+
         </article>
 
 </div>
