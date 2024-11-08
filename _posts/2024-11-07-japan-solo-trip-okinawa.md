@@ -5,15 +5,12 @@ date: 2024-11-7
 description: This is what life looks like.
 authors:
   - name: Yibing (Bill) Liu
-comments: true
+#comments: true
 tags: Japan Backpack
 categories: travel
 hidden: false
 ---
 
-[//]: # (### Okinawa 沖繩)
-
-[//]: # (---)
 
 #### Chapter A - Naha 那霸
 **[Naha Memory-A]** On my first night in Okinawa, I made a new friend—Max, a 23-year-old boy from UK. When I noticed his well-worn backpack, I felt an instant connection. Max has already traveled to many countries and has explored most of Japan by biking and camping (unbelievable)! We had an amazing time together, went to a bar to chat over drinks, and even sang karaoke. Later, we moved to a lawn to keep talking over beers, finally calling it a night sometime after one in the morning.
