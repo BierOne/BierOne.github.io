@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  My backpack trails in Japan - Okinawa 沖繩
+title:  Backpack trails in Japan - Okinawa 沖繩篇
 date: 2024-11-7 
 description: This is what life looks like.
 authors:

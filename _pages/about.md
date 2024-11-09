@@ -46,7 +46,7 @@ I am currently a Ph.D. student in the Department of Computer Science at [City Un
 
 
 <!-- <details>
-<summary><b>Hobby</b></summary> I love backpacking and adventuring. In May 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
+<summary><b>Hobby</b></summary> I love backpacking and adventuring. In July 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
 Seeking a change, I set out on my first solo and long trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this experience.
 </details><br> -->
 
