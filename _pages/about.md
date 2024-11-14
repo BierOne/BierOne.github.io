@@ -40,19 +40,22 @@ honors_content: |+
 
 ---
 
+
 I am currently a Ph.D. student in the Department of Computer Science at [City University of Hong Kong](https://www.cityu.edu.hk/) supervised by [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/). From Mar. 2024 to Aug. 2024, I was a visiting scholar at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), under the supervision of [Prof. Lei Ma](https://www.malei.org). Before that, I received my B.E. degree in School of Computer Science and Technology from [Shandong University](https://www.en.sdu.edu.cn) with first class honours in 2020. 
 
 **Research:** I have broad interests in Trustworthy machine learning, Theoretical interpretation of deep learning models, and Out-of-distribution detection and generalization. I am enthusiastic about understanding the internal workings of machine learning algorithms and designing tools to make them explainable and robust. 
 
 
-<!-- <details>
-<summary><b>Hobby</b></summary> I love backpacking and adventuring. In July 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
-Seeking a change, I set out on my first solo and long trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this experience.
-</details><br> -->
+[//]: # (<details>)
+
+[//]: # (<summary><b>Miscellaneous</b></summary> I love backpacking and adventuring. In July 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.)
+
+[//]: # (Seeking a change, I set out on my first solo and long trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this experience.)
+
+[//]: # (</details><br>)
 
 
-**Mis:** I love backpacking and adventuring. In May 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me.
-Seeking a change, I set out on my first solo trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this [experience](https://bierone.github.io/blog/).
+**Mis:** I love backpacking and adventuring. In July 2024, I felt deeply depressed about my research. Each day, I’d wake up, head to the university, and go through a monotonous routine, finding it harder and harder to appreciate the wonderful things around me. Seeking a change, I set out on my first solo trip, traveling across Japan -- from the southern warmth of Okinawa and Kyushu to the northern charm of Hokkaido, with stops in Kansai and Kanto along the way. I met incredible people from different countries and walks of life. They lifted my spirits in ways I hadn’t expected and helped me find myself. I’m grateful for this [experience](https://bierone.github.io/blog/).
 
 
 

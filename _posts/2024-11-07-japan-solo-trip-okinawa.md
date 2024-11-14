@@ -41,6 +41,7 @@ hidden: false
 </div>
 
 
+
 **[Naha Memory-C]** Next, I visited Kudakajima Island (久高島)—known as the "Island of the Rising Sun." The coastline was stunning, with rich biodiversity. I spotted all kinds of little creatures: hermit crabs, crabs, colorful lizards, starfish, and fish. On the way back, I almost missed the boat but ended up meeting a couple of "celebrities" there for a photoshoot. We had a great chat, and they were really friendly, always saying “arigato.” We even took a group photo and followed each other on Instagram. Meeting Yuki and Megua-san was such a memorable moment.
 
 
@@ -106,7 +107,7 @@ hidden: false
 
 **[Nago Memory-B]** On the second day at Sumire, I woke up very early in the morning and went snorkeling! Although it was raining, the experience was fantastic. I also had a flare-up of tonsillitis (扁桃炎), so I took medicine beforehand, but still felt a little uncomfortable after going into the water. Thankfully, the experience was amazing. After that, Yoshiki took me to a nearby beach, which was very beautiful. 
 
-Ps. as I am not comfortable at that time, I didn't take any photos underwater :\|
+Ps. as I was not comfortable at that time, I didn't take any photos underwater :\|
 
 
 
