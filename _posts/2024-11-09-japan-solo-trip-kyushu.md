@@ -102,7 +102,7 @@ In the evening, I tried the tomato ramen that Hugo and Hiji had recommended earl
 
 In the morning, I said goodbye to Alison. We went to a nearby café for lunch together. Alison mentioned how many friendships formed during travels tend to be fleeting, but she believed we were real friends and would have a lasting friendship.
 
-In the afternoon, I spent some time preparing for a research topic related to my LW work. By evening, I headed to the top of Mount Inasayama, where the view was breathtaking. I watched the sunset and the stunning nightscape of Nagasaki—it was absolutely beautiful.
+In the afternoon, I spent some time preparing for a research topic related to my work. By evening, I headed to the top of Mount Inasayama, where the view was breathtaking. I watched the sunset and the stunning nightscape of Nagasaki—it was absolutely beautiful.
 
 Just as I was about to leave, I unexpectedly ran into Lior again. It felt like fate to meet him here. He was carrying a Sony camera (looked like an R3, he said) that he'd been using for years. I had a look at his photos—they were really impressive. Unfortunately, I was rushing to catch a ride, so we didn’t get to chat much.
 
