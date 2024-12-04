@@ -165,13 +165,13 @@ Ps. as I was not comfortable at that time, I didn't take any photos underwater :
 To memorize every person, I wrote down their stories into my diary:
 
 
-- **Moe-san**: She's from Tokyo, 27 years old, and used to work at a bicycle shop. Last year, she cycled around Japan for six months! Now, she works at Sumire to save up for a trip to Europe. She also has her own store selling stickers and clothes based on her own designs—very cool!
+- **Moe-san**: She's from Tokyo, and used to work at a bicycle shop. Last year, she cycled around Japan for six months! Now, she works at Sumire to save up for a trip to Europe. She also has her own store selling stickers and clothes based on her own designs—very cool! She is a very kind person and helped me a lot during my stay at Sumire. I was really grateful for her help.
 
-- **Eva**: A 27-year-old girl from Canada who taught English in Korea for a few years. She’s now at Sumire for some free diving before flying back to Canada tomorrow. She’s friendly, well-read, and loves movies. I heard from Guang-san that she’s an amazing swimmer. Unfortunately, we only spent one night together, so I didn’t get to know her better.
+- **Eva-san**: A girl from Canada who taught English in Korea for a few years. She’s now at Sumire for some free diving before flying back to Canada tomorrow. She’s friendly, well-read, and loves movies. I heard from Guang-san that she’s an amazing swimmer. Unfortunately, we only spent one night together, so I didn’t get to know her better.
 
 - **Guang-san(板倉光)**: He even has a Chinese name and has been to Sichuan Province (where I was born). He’s a vegetarian with very healthy habits and a disciplined lifestyle. He’s here for free diving and works at a Japanese pharmaceutical company, handling documentation and advertising. He struck me as calm and kind, and I was surprised to learn he’s 42 with a 21-year-old son. After the tsunami, he went through a tough time and later met a girlfriend online from Sichuan. He went all the way to meet her family, but they didn't end up together due to family opposition. I was inspired by his rich life experiences.
 
-- **Yoshiki-san** is a 23-year-old boy who works at a hotel in Disneyland and is good at the guitar. He spoke English well and took me snorkeling on the second day, guiding me underwater and even covering my meal because I didn’t have cash at that time. His mom is a professional surfer, and he’s here to study surfing. I’m grateful for his help.
+- **Yoshiki-san** is a 23-year-old boy who works at a hotel in Disneyland and is good at the guitar. He spoke English well and took me snorkeling on the second day, guiding me underwater and even covering my meal because I didn’t have cash at that time. His mom is a professional surfer, and he’s here to study surfing. I appreciate his kindness and hope he can achieve his dreams.
 
 - **Adachi-san**: He owns this guesthouse, and "Sumire" is actually his daughter's name. She’s now in the sixth grade and loves playing Splatoon. He’s very fond of his daughter and is incredibly nice, organizing all the guesthouse activities. I remember when I lost my glasses while swimming in the river, and he said, “Liu-san, please take the glasses. Your view would be better. If you lose the glasses, I will always find it out!” I felt such kindness—it was really touching.
 
