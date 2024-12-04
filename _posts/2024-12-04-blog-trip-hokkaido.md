@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Backpack trails in Japan - Kansai 關西篇
+title: Backpack trails in Japan - Hokkaido 北海道篇
 date: 2024-12-4
 description: coming soon.
 authors:
@@ -11,13 +11,15 @@ categories: travel
 hidden: false
 ---
 
-#### Chapter A - Osaka 大阪
+#### Chapter A - Otaru 小樽
 
-#### Chapter B - Nara 奈良
+#### Chapter B - Neboribetsu 登别
 
-#### Chapter C - Kyoto 京都 (森之京都)
+#### Chapter C - Toya 洞爷
 
-#### Chapter D - Maizuru 舞鶴 (海之京都)
+#### Chapter D - Sapporo 札幌
+
+#### Chapter E - Furano 富良野
 
 
 

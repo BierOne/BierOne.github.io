@@ -2,7 +2,7 @@
 layout: post
 title:  Backpack trails in Japan - Okinawa 沖繩篇
 date: 2024-11-7 
-description: This is what life looks like.
+description: This is what life looks like. Naha, Nago, and Motobu.
 authors:
   - name: Yibing (Bill) Liu
 #comments: true

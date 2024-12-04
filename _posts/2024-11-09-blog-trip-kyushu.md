@@ -2,7 +2,7 @@
 layout: post
 title: Backpack trails in Japan - Kyushu 九州篇
 date: 2024-11-9
-description: coming soon.
+description: Kagoshima, Ibusuki, Kumamoto, Unzen, Nagasaki, Fukuoka
 authors:
   - name: Yibing (Bill) Liu
 #comments: true
