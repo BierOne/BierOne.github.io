@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Backpack trails in Japan - Kansai 關西篇
-date: 2024-12-8
-description: coming soon.
+date: 2024-12-7
+description: Osaka, Nara, Kyoto, and Maizuru.
 authors:
   - name: Yibing (Bill) Liu
 #comments: true
