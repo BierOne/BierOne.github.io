@@ -19,6 +19,7 @@ strong {
   color: var(--global-text-color);
 }
 
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -397,12 +398,54 @@ ul.task-list input[type="checkbox"] {
 
 // Social (bottom)
 
+// .social {
+//   text-align: center;
+
+//   .contact-icons {
+//     font-size: 4rem;
+
+//     a {
+//       img {
+//         width: 3.2rem;
+//         height: 3.2rem;
+//         margin-bottom: 1rem;
+//       }
+
+//       svg {
+//         width: 3.5rem;
+//         height: 4rem;
+//         margin-bottom: 0.5rem;
+
+//         image {
+//           width: 3.5rem;
+//           height: 3.5rem;
+//         }
+//       }
+
+//       i::before {
+//         color: var(--global-text-color);
+//         transition-property: all 0.2s ease-in-out;
+//       }
+
+//       &:hover {
+//         text-decoration: none;
+
+//         i::before {
+//           color: var(--global-theme-color);
+//         }
+//       }
+//     }
+//   }
+
+//   .contact-note {
+//     font-size: 0.8rem;
+//   }
+// }
+
 .social {
-  text-align: center;
-
+  text-align: left;
   .contact-icons {
-    font-size: 4rem;
-
+    font-size: 3.2rem;
     a {
       img {
         width: 3.2rem;
@@ -420,26 +463,26 @@ ul.task-list input[type="checkbox"] {
           height: 3.5rem;
         }
       }
-
+    }
+    a {
       i::before {
         color: var(--global-text-color);
         transition-property: all 0.2s ease-in-out;
       }
-
       &:hover {
-        text-decoration: none;
-
         i::before {
           color: var(--global-theme-color);
         }
       }
     }
   }
-
   .contact-note {
+    text-align: left;
     font-size: 0.8rem;
   }
 }
+
+
 
 .wechat-modal {
   display: none;
@@ -727,6 +770,156 @@ footer.sticky-bottom {
     text-align: right;
   }
 
+  // ol.bibliography {
+  //   list-style: none;
+  //   padding: 0;
+  //   margin-top: 0;
+
+  //   li {
+  //     margin-bottom: 1rem;
+
+  //     .preview {
+  //     }
+
+  //     .abbr {
+  //       margin-bottom: 0.5rem;
+
+  //       abbr {
+  //         display: inline-block;
+  //         background-color: var(--global-theme-color);
+  //         margin-bottom: 0.5rem;
+  //         color: var(--global-card-bg-color) !important;
+
+  //         a {
+  //           color: white;
+
+  //           &:hover {
+  //             text-decoration: none;
+  //           }
+  //         }
+  //       }
+
+  //       .award {
+  //         color: var(--global-theme-color) !important;
+  //         border: 1px solid var(--global-theme-color);
+  //       }
+        
+  //     }
+
+  //     .title {
+  //       font-weight: bolder;
+  //     }
+
+  //     .author {
+  //       a {
+  //         border-bottom: 1px dashed var(--global-theme-color);
+
+  //         &:hover {
+  //           border-bottom-style: solid;
+  //           text-decoration: none;
+  //         }
+  //       }
+
+  //       > em {
+  //         border-bottom: 1px solid;
+  //         font-style: normal;
+  //       }
+
+  //       > span.more-authors {
+  //         color: var(--global-text-color-light);
+  //         border-bottom: 1px dashed var(--global-text-color-light);
+  //         cursor: pointer;
+
+  //         &:hover {
+  //           color: var(--global-text-color);
+  //           border-bottom: 1px dashed var(--global-text-color);
+  //         }
+  //       }
+  //     }
+
+  //     .links {
+  //       a.btn {
+  //         color: var(--global-text-color);
+  //         border: 1px solid var(--global-text-color);
+  //         padding-left: 1rem;
+  //         padding-right: 1rem;
+  //         padding-top: 0.25rem;
+  //         padding-bottom: 0.25rem;
+  //         margin-left: 0;
+
+  //         &:hover {
+  //           color: var(--global-theme-color);
+  //           border-color: var(--global-theme-color);
+  //         }
+  //       }
+  //       a.award.btn {
+  //         border-color: var(--global-highlight-color);
+  //       }
+  //     }
+
+  //     .badges {
+  //       padding-bottom: 0.5rem;
+  //       span {
+  //         display: inline-block;
+  //         color: $black-color;
+  //         height: 100%;
+  //         padding-right: 0.5rem;
+  //         vertical-align: middle;
+
+  //         &:hover {
+  //           text-decoration: underline;
+  //         }
+  //       }
+  //     }
+
+  //     .hidden {
+  //       font-size: 0.875rem;
+  //       max-height: 0px;
+  //       overflow: hidden;
+  //       text-align: justify;
+  //       transition-property: 0.15s ease;
+  //       -moz-transition: 0.15s ease;
+  //       -ms-transition: 0.15s ease;
+  //       -o-transition: 0.15s ease;
+  //       transition: all 0.15s ease;
+
+  //       p {
+  //         line-height: 1.4em;
+  //         margin: 10px;
+  //       }
+
+  //       pre {
+  //         font-size: 1em;
+  //         line-height: 1.4em;
+  //         padding: 10px;
+  //       }
+  //     }
+
+  //     .hidden.open {
+  //       max-height: 100em;
+  //       transition-property: 0.15s ease;
+  //       -moz-transition: 0.15s ease;
+  //       -ms-transition: 0.15s ease;
+  //       -o-transition: 0.15s ease;
+  //       transition: all 0.15s ease;
+  //     }
+
+  //     div.abstract.hidden {
+  //       border: dashed 1px var(--global-bg-color);
+  //     }
+
+  //     div.abstract.hidden.open {
+  //       border-color: var(--global-text-color);
+  //     }
+  //   }
+  //   div.award.hidden {
+  //     border: dashed 1px var(--global-bg-color);
+  //   }
+  //   div.award.hidden.open {
+  //     border-color: var(--global-highlight-color);
+  //   }
+  // }
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -734,100 +927,78 @@ footer.sticky-bottom {
 
     li {
       margin-bottom: 1rem;
-
       .preview {
+        width: 100%;
+        min-width: 80px;
+        max-width: 200px;
       }
-
       .abbr {
+        height: 2rem;
         margin-bottom: 0.5rem;
-
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
-          margin-bottom: 0.5rem;
-          color: var(--global-card-bg-color) !important;
-
+          padding-left: 1rem;
+          padding-right: 1rem;
           a {
             color: white;
-
             &:hover {
               text-decoration: none;
             }
           }
         }
-
         .award {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
+          padding-left: 0.75rem;
+          padding-right: 0.75rem;
         }
-      }
-
+      }    
       .title {
         font-weight: bolder;
       }
-
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
-
           &:hover {
-            border-bottom-style: solid;
-            text-decoration: none;
+              border-bottom-style: solid;
+              text-decoration: none;
           }
         }
-
         > em {
           border-bottom: 1px solid;
           font-style: normal;
         }
-
         > span.more-authors {
           color: var(--global-text-color-light);
           border-bottom: 1px dashed var(--global-text-color-light);
           cursor: pointer;
-
           &:hover {
-            color: var(--global-text-color);
-            border-bottom: 1px dashed var(--global-text-color);
+              color: var(--global-text-color);
+              border-bottom: 1px dashed var(--global-text-color);
           }
         }
       }
-
       .links {
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
-          padding-left: 1rem;
-          padding-right: 1rem;
-          padding-top: 0.25rem;
-          padding-bottom: 0.25rem;
-          margin-left: 0;
-
+          padding-left: 0.35rem;
+          padding-right: 0.35rem;
+          padding-top: 0.1rem;
+          padding-bottom: 0.1rem;
+          margin-left: 0rem;
+          margin-right: 0rem;
           &:hover {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
         }
-        a.award.btn {
-          border-color: var(--global-highlight-color);
-        }
       }
-
-      .badges {
-        padding-bottom: 0.5rem;
-        span {
-          display: inline-block;
-          color: $black-color;
-          height: 100%;
-          padding-right: 0.5rem;
-          vertical-align: middle;
-
-          &:hover {
-            text-decoration: underline;
-          }
-        }
-      }
-
+      .honor {
+        color: var(--global-theme-color);      
+        font-weight: bolder;
+      }      
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -843,14 +1014,12 @@ footer.sticky-bottom {
           line-height: 1.4em;
           margin: 10px;
         }
-
         pre {
           font-size: 1em;
           line-height: 1.4em;
           padding: 10px;
         }
       }
-
       .hidden.open {
         max-height: 100em;
         transition-property: 0.15s ease;
@@ -859,22 +1028,15 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
-
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }
-
       div.abstract.hidden.open {
         border-color: var(--global-text-color);
       }
     }
-    div.award.hidden {
-      border: dashed 1px var(--global-bg-color);
-    }
-    div.award.hidden.open {
-      border-color: var(--global-highlight-color);
-    }
   }
+
 }
 
 // Rouge Color Customization

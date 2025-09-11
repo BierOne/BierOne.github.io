@@ -23,6 +23,10 @@ $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;
+$caltech-orange: #ff6c0c !default;
+$caltech-purple: #644B78 !default;
+$caltech-blue: #00A1DF !default;
+
 
 $grey-color: #828282 !default;
 $grey-color-light: color.adjust($grey-color, $lightness: 40%);

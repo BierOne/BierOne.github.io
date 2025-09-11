@@ -1,115 +1,116 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{liu2024nac,
+  abstract={
+    The out-of-distribution (OOD) problem generally arises when neural networks encounter data that significantly deviates from the training data distribution, i.e., in-distribution (InD). In this paper, we study the OOD problem from a neuron activation view. We first formulate neuron activation states by considering both the neuron output and its influence on model decisions. Then, to characterize the relationship between neurons and OOD issues, we introduce the neuron activation coverage (NAC) -- a simple measure for neuron behaviors under InD data. Leveraging our NAC, we show that 1) InD and OOD inputs can be largely separated based on the neuron behavior, which significantly eases the OOD detection problem and beats the 21 previous methods over three benchmarks (CIFAR-10, CIFAR-100, and ImageNet-1K). 2) a positive correlation between NAC and model generalization ability consistently holds across architectures and datasets, which enables a NAC-based criterion for evaluating model robustness. Compared to prevalent InD validation criteria, we show that NAC not only can select more robust models, but also has a stronger correlation with OOD test performance.
+  },
+  author       = {Yibing Liu and
+                  Chris Xing Tian and
+                  Haoliang Li and
+                  Lei Ma and
+                  Shiqi Wang},
+  title        = {Neuron Activation Coverage: Rethinking Out-of-distribution Detection
+                  and Generalization},  
+  booktitle={the 12th International Conference on Learning Representations, 2024},
+  year={2024},
+  abbr={ICLR'24},
+  award={Spotlight},
+	honor={Spotlight Presentation [Top %5]},
+  pdf={https://openreview.net/pdf?id=SNGXbZtK6Q},
+  code={https://github.com/bierone/ood_coverage},
+  selected={true}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@ARTICLE{liu2024coco,
+  author={Liu, Yibing and Tian, Chris Xing and Li, Haoliang and Wang, Shiqi},
+  journal={IEEE Transactions on Image Processing, 2024}, 
+  abbr={TIP'24},
+  title={Generalization Beyond Feature Alignment: Concept Activation-Guided Contrastive Learning}, 
+  year={2024},
+  volume={33},
+  pages={4377-4390},
+  code={https://github.com/BierOne/coco},
+  pdf={https://arxiv.org/abs/2211.06843},
   selected={true},
-  inspirehep_id = {3255}
+  abstract={Learning invariant representations via contrastive learning has seen state-of-the-art performance in domain generalization (DG). Despite such success, in this paper, we find that its core learning strategy – feature alignment – could heavily hinder model generalization. Drawing insights in neuron interpretability, we characterize this problem from a neuron activation view. Specifically, by treating feature elements as neuron activation states, we show that conventional alignment methods tend to deteriorate the diversity of learned invariant features, as they indiscriminately minimize all neuron activation differences. This instead ignores rich relations among neurons – many of them often identify the same visual concepts despite differing activation patterns. With this finding, we present a simple yet effective approach, Concept Contrast (CoCo), which relaxes element-wise feature alignments by contrasting high-level concepts encoded in neurons. Our CoCo performs in a plug-and-play fashion, thus it can be integrated into any contrastive method in DG. We evaluate CoCo over four canonical contrastive methods, showing that CoCo promotes the diversity of feature representations and consistently improves model generalization capability. By decoupling this success through neuron coverage analysis, we further find that CoCo potentially invokes more meaningful neurons during training, thereby improving model learning.},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@InProceedings{liu22icml,
+  title = 	 {Rethinking Attention-Model Explainability through Faithfulness Violation Test},
+  author =       {Liu, Yibing and Li, Haoliang and Guo, Yangyang and Kong, Chenqi and Li, Jing and Wang, Shiqi},
+  booktitle = 	 {the 39th International Conference on Machine Learning, 2022},
+  year = 	 {2022},
+  abbr={ICML'22},
+  pdf = 	 {https://proceedings.mlr.press/v162/liu22i/liu22i.pdf},
+  code={https://github.com/BierOne/Attention-Faithfulness},
+  selected={true},
+  abstract = 	 {Attention mechanisms are dominating the explainability of deep models. They produce probability distributions over the input, which are widely deemed as feature-importance indicators. However, in this paper, we find one critical limitation in attention explanations: weakness in identifying the polarity of feature impact. This would be somehow misleading – features with higher attention weights may not faithfully contribute to model predictions; instead, they can impose suppression effects. With this finding, we reflect on the explainability of current attention-based techniques, such as Attention $\bigodot$ Gradient and LRP-based attention explanations. We first propose an actionable diagnostic methodology (henceforth faithfulness violation test) to measure the consistency between explanation weights and the impact polarity. Through the extensive experiments, we then show that most tested explanation methods are unexpectedly hindered by the faithfulness violation issue, especially the raw attention. Empirical analyses on the factors affecting violation issues further provide useful observations for adopting explanation methods in attention models.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+
+
+@article{liu2022Tomm,
+author = {Liu, Yibing and Guo, Yangyang and Yin, Jianhua and Song, Xuemeng and Liu, Weifeng and Nie, Liqiang and Zhang, Min},
+title = {Answer Questions with Right Image Regions: A Visual Attention Regularization Approach},
+year = {2022},
+abstract = {Visual attention in Visual Question Answering (VQA) targets at locating the right image regions regarding the answer prediction, offering a powerful technique to promote multi-modal understanding. However, recent studies have pointed out that the highlighted image regions from the visual attention are often irrelevant to the given question and answer, leading to model confusion for correct visual reasoning. To tackle this problem, existing methods mostly resort to aligning the visual attention weights with human attentions. Nevertheless, gathering such human data is laborious and expensive, making it burdensome to adapt well-developed models across datasets. To address this issue, in this article, we devise a novel visual attention regularization approach, namely, AttReg, for better visual grounding in VQA. Specifically, AttReg first identifies the image regions that are essential for question answering yet unexpectedly ignored (i.e., assigned with low attention weights) by the backbone model. And then a mask-guided learning scheme is leveraged to regularize the visual attention to focus more on these ignored key regions. The proposed method is very flexible and model-agnostic, which can be integrated into most visual attention-based VQA models and require no human attention supervision. Extensive experiments over three benchmark datasets, i.e., VQA-CP v2, VQA-CP v1, and VQA v2, have been conducted to evaluate the effectiveness of AttReg. As a by-product, when incorporating AttReg into the strong baseline LMH, our approach can achieve a new state-of-the-art accuracy of 60.00\% with an absolute performance gain of 7.01\% on the VQA-CP v2 benchmark dataset. In addition to the effectiveness validation, we recognize that the faithfulness of the visual attention in VQA has not been well explored in literature. In the light of this, we propose to empirically validate such property of visual attention and compare it with the prevalent gradient-based approaches.},
+journal = {ACM Trans. Multimedia Comput. Commun. Appl., 2022},
+abbr={ToMM'22},
+code={https://github.com/BierOne/VQA-AttReg},
+pdf={https://dl.acm.org/doi/10.1145/3498340},
+selected={true},
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+
+
+@ARTICLE{Kong24TIFS,
+  author={Kong, Chenqi and Zheng, Kexin and Liu, Yibing and Wang, Shiqi and Rocha, Anderson and Li, Haoliang},
+  journal={IEEE Transactions on Dependable and Secure Computing}, 
+  title={M$^{3}$ FAS: An Accurate and Robust MultiModal Mobile Face Anti-Spoofing System}, 
+  year={2024},
+  abbr={TIFS'24},
+  abstract={Face presentation attacks (FPA), also known as face spoofing, have brought increasing concerns to the public through various malicious applications, such as financial fraud and privacy leakage. Therefore, safeguarding face recognition systems against FPA is of utmost importance. Although existing learning-based face anti-spoofing (FAS) models can achieve outstanding detection performance, they lack generalization capability and suffer significant performance drops in unforeseen environments. Many methodologies seek to use auxiliary modality data (e.g., depth and infrared maps) during the presentation attack detection (PAD) to address this limitation. However, these methods can be limited since (1) they require specific sensors such as depth and infrared cameras for data capture, which are rarely available on commodity mobile devices, and (2) they cannot work properly in practical scenarios when either modality is missing or of poor quality. In this paper, we devise an accurate and robust MultiModal Mobile Face Anti-Spoofing system named M $^{3}$ FAS to overcome the issues above. The primary innovation of this work lies in the following aspects: (1) To achieve robust PAD, our system combines visual and auditory modalities using three commonly available sensors: camera, speaker, and microphone; (2) We design a novel two-branch neural network with three hierarchical feature aggregation modules to perform cross-modal feature fusion; (3). We propose a multi-head training strategy, allowing the model to output predictions from the vision, acoustic, and fusion heads, resulting in a more flexible PAD. Extensive experiments have demonstrated the accuracy, robustness, and flexibility of M $^{3}$ FAS under various challenging experimental settings. The source code and dataset are available at: https://github.com/ChenqiKONG/M3FAS/.},
+  code={},
+  pdf={https://arxiv.org/abs/2301.12831}
+  }
+
+
+@inproceedings{tian2024gradientcongruity,
+title={Gradient-Congruity Guided Federated Sparse Training},
+author={Chris XING TIAN and Yibing Liu and Haoliang Li and Ray C.C. Cheung and Shiqi Wang},
+booktitle={the ICLR 2024 Workshop on Privacy Regulation and Protection in Machine Learning},
+abbr={ICLR'24},
+award={Workshop},
+year={2024},
+pdf = 	 {https://arxiv.org/pdf/2405.01189},
+abstract={Edge computing allows artificial intelligence and machine learning models to be deployed on edge devices, where they can learn from local data and collaborate to form a global model. Federated learning (FL) is a distributed machine learning technique that facilitates this process while preserving data privacy. However, FL also faces challenges such as high computational and communication costs regarding resource-constrained devices, and poor generalization performance due to the heterogeneity of data across edge clients and the presence of out-of-distribution data. In this paper, we propose the Gradient-Congruity Guided Federated Sparse Training (FedSGC), a novel method that integrates dynamic sparse training and gradient congruity inspection into federated learning framework to address these issues. Our method leverages the idea that the neurons, in which the associated gradients with conflicting directions with respect to the global model contain irrelevant or less generalized information for other clients, and could be pruned during the sparse training process. Conversely, the neurons where the associated gradients with consistent directions could be grown in a higher priority. In this way, FedSGC can greatly reduce the local computation and communication overheads while, at the same time, enhancing the generalization abilities of FL. We evaluate our method on challenging non-i.i.d settings and show that it achieves competitive accuracy with state-of-the-art FL methods across various scenarios while minimizing computation and communication costs.
+}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+
+
+@inproceedings{10.1145/3503161.3547870,
+author = {Guo, Yangyang and Nie, Liqiang and Wong, Yongkang and Liu, Yibing and Cheng, Zhiyong and Kankanhalli, Mohan},
+title = {A Unified End-to-End Retriever-Reader Framework for Knowledge-based VQA},
+year = {2022},
+abstract = {Knowledge-based Visual Question Answering (VQA) expects models to rely on external knowledge for robust answer prediction. Though significant it is, this paper discovers several leading factors impeding the advancement of current state-of-the-art methods. On the one hand, methods which exploit the explicit knowledge take the knowledge as a complement for the coarsely trained VQA model. Despite their effectiveness, these approaches often suffer from noise incorporation and error propagation. On the other hand, pertaining to the implicit knowledge, the multi-modal implicit knowledge for knowledge-based VQA still remains largely unexplored. This work presents a unified end-to-end retriever-reader framework towards knowledge-based VQA. In particular, we shed light on the multi-modal implicit knowledge from vision-language pre-training models to mine its potential in knowledge reasoning. As for the noise problem encountered by the retrieval operation on explicit knowledge, we design a novel scheme to create pseudo labels for effective knowledge supervision. This scheme is able to not only provide guidance for knowledge retrieval, but also drop these instances potentially error-prone towards question answering. To validate the effectiveness of the proposed method, we conduct extensive experiments on the benchmark dataset. The experimental results reveal that our method outperforms existing baselines by a noticeable margin. Beyond the reported numbers, this paper further spawns several insights on knowledge utilization for future research with some empirical findings.},
+booktitle = {the 30th ACM International Conference on Multimedia},
+pdf = {https://dl.acm.org/doi/pdf/10.1145/3503161.3547870},
+abbr = {MM'22},
+code={https://github.com/guoyang9/UnifER}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{10.1145/3331184.3331186,
+author = {Guo, Yangyang and Cheng, Zhiyong and Nie, Liqiang and Liu, Yibing and Wang, Yinglong and Kankanhalli, Mohan},
+title = {Quantifying and Alleviating the Language Prior Problem in Visual Question Answering},
+year = {2019},
+abstract = {Benefiting from the advancement of computer vision, natural language processing and information retrieval techniques, visual question answering (VQA), which aims to answer questions about an image or a video, has received lots of attentions over the past few years. Although some progress has been achieved so far, several studies have pointed out that current VQA models are heavily affected by the language prior problem, which means they tend to answer questions based on the co-occurrence patterns of question keywords (e.g., how many) and answers (e.g., 2) instead of understanding images and questions. Existing methods attempt to solve this problem by either balancing the biased datasets or forcing models to better understand images. However, only marginal effects and even performance deterioration are observed for the first and second solution, respectively. In addition, another important issue is the lack of measurement to quantitatively measure the extent of the language prior effect, which severely hinders the advancement of related techniques.In this paper, we make contributions to solve the above problems from two perspectives. Firstly, we design a metric to quantitatively measure the language prior effect of VQA models. The proposed metric has been demonstrated to be effective in our empirical studies. Secondly, we propose a regularization method (i.e., score regularization module) to enhance current VQA models by alleviating the language prior problem as well as boosting the backbone model performance. The proposed score regularization module adopts a pair-wise learning strategy, which makes the VQA models answer the question based on the reasoning of the image (upon this question) instead of basing on question-answer patterns observed in the biased training set. The score regularization module is flexible to be integrated into various VQA models. We conducted extensive experiments over two popular VQA datasets (i.e., VQA 1.0 and VQA 2.0) and integrated the score regularization module into three state-of-the-art VQA models. Experimental results show that the score regularization module can not only effectively reduce the language prior problem of these VQA models but also consistently improve their question answering accuracy.},
+booktitle = {the 42nd International ACM SIGIR Conference},
+abbr = {SIGIR'19},
+award={Oral},
+pdf = {https://arxiv.org/pdf/1905.04877},
+honor={Oral Presentation},
+code={https://github.com/guoyang9/vqa-prior}
 }

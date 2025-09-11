@@ -2,27 +2,26 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Yibing Liu
+first_name: Yibing
+middle_name: 
+last_name: Liu
+email: lyibing112@gmail.com
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Email is the best way to reach me.
+description: >
+  The personal website of Yibing (Bill) Liu.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: Yibing Liu, machine learning, AI, artificial intelligence
+lang: en
+icon: favicon.ico
 
-url: https://alshedivat.github.io # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/. Leave blank for root
+url: https://bierone.github.io # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
-back_to_top: true # set to false to disable the back to top button
+back_to_top: false # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
@@ -54,7 +53,7 @@ posts_in_search: true
 bib_search: true
 
 # Dimensions
-max_width: 930px
+max_width: 800px
 
 # TODO: add layout settings (single page vs. multi-page)
 
@@ -71,25 +70,24 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-# For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
-# and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
-cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
-pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
-openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
-
-# For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
-google_site_verification: # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
-
+github_username: BierOne
+gitlab_username: ""
+twitter_username: ""
+linkedin_username: yibing-liu-9a78a91b8
+scholar_userid: NcmJACMAAAAJ
+instagram_id: billone_kari
+orcid_id: ""
+medium_username: ""
+google_analytics: G-B81D7JZ7GV  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: Bill's Space
+blog_nav_title: blog
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
+
 
 # Pagination
 pagination:
@@ -116,19 +114,19 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: billone # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+# external_sources:
+#   - name: medium.com
+#     rss_url: https://medium.com/@al-folio/feed
+#   - name: Google Blog
+#     posts:
+#       - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
+#         published_date: 2024-05-14
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -256,16 +254,16 @@ jekyll-archives:
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
-display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
-display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
+display_tags: ["backpack", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
+# display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yibing]
+  first_name: [Liu]
 
   style: apa
   locale: en
@@ -349,20 +347,12 @@ external_links:
 #   convert -version
 imagemagick:
   enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
-  widths:
-    - 480
-    - 800
-    - 1400
-  input_directories:
-    - assets/img/
-  input_formats:
-    - ".jpg"
-    - ".jpeg"
-    - ".png"
-    - ".tiff"
-    - ".gif"
+  widths: [480, 800, 1400]
+  input_directories: ["assets/img/"]
+  input_formats: [".jpg", ".jpeg", ".png", ".tiff",]
   output_formats:
     webp: "-quality 85"
+lazy_loading_images: true
 
 # Lazy loading images
 #   If you enable lazy loading, all images will add the loading="lazy" attribute.
@@ -370,7 +360,6 @@ imagemagick:
 #   You can also set loading="" to other values for specific images to override the default behavior.
 #   Options: "auto", "eager", "lazy"
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
-lazy_loading_images: true # enables lazy loading of images (recommended)
 
 # -----------------------------------------------------------------------------
 # Optional Features
