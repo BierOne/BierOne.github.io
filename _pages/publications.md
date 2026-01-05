@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: "(&#x2A) denotes equal contribution"
-years: [2024, 2022, 2019]
+description: "(&#x2A) denotes corresponding author"
+years: [2026, 2025, 2024, 2022, 2019]
 nav: true
 nav_order: 2
 ---
