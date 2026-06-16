@@ -1,5 +1,91 @@
 ---
 ---
+
+@misc{liu2025enhancingzeroshotimagerecognition,
+      title={Enhancing Zero-Shot Image Recognition in Vision-Language Models through Human-like Concept Guidance}, 
+      author={Hui Liu and Wenya Wang and Kecheng Chen and Jie Liu and Yibing Liu and Tiexin Qin and Peisong He and Xinghao Jiang and Haoliang Li},
+      year={2025},
+      eprint={2503.15886},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      abbr={Preprint},
+      abstract={
+      In zero-shot image recognition tasks, humans demonstrate remarkable flexibility in classifying unseen categories by composing known simpler concepts. However, existing vision-language models (VLMs), despite achieving significant progress through large-scale natural language supervision, often underperform in real-world applications because of sub-optimal prompt engineering and the inability to adapt effectively to target classes. To address these issues, we propose a Concept-guided Human-like Bayesian Reasoning (CHBR) framework. Grounded in Bayes' theorem, CHBR models the concept used in human image recognition as latent variables and formulates this task by summing across potential concepts, weighted by a prior distribution and a likelihood function. To tackle the intractable computation over an infinite concept space, we introduce an importance sampling algorithm that iteratively prompts large language models (LLMs) to generate discriminative concepts, emphasizing inter-class differences. We further propose three heuristic approaches involving Average Likelihood, Confidence Likelihood, and Test Time Augmentation (TTA) Likelihood, which dynamically refine the combination of concepts based on the test image. Extensive evaluations across fifteen datasets demonstrate that CHBR consistently outperforms existing state-of-the-art zero-shot generalization methods.
+      },
+        pdf={https://arxiv.org/abs/2503.15886}, 
+}
+
+@misc{xu2026recoverymattersblindspot,
+      title={When Recovery Matters: The Blind Spot of Surrogate Privacy in MLLM Editing}, 
+      author={Siyuan Xu and Yibing Liu+ and Peilin Chen and Yung-Hui LI and Shiqi Wang and Sam Kwong},
+      year={2026},
+      eprint={2606.07171},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      abbr={Preprint},
+      abstract={
+Multimodal Large Language Models (MLLMs) enable flexible instruction-driven image editing, but privacy risks arise when user images expose diverse and user-specific private content. Canonical privacy protection strategies typically substitute sensitive regions with surrogate content before cloud editing. Yet, the resulting output is often an edited surrogate rather than the desired edited source image, neglecting the local recovery in both design and evaluation scope. To this end, we introduce SPPE (Surrogate-based Privacy-Preserving Editing), the first recovery-oriented benchmark covering 36 fine-grained privacy categories and 65 editing instructions. It defines two complementary tasks: 1) editability assessment, which estimates before cloud interaction whether a surrogate can induce an edit consistent with the original image; and 2) surrogate-to-source edit recovery, which evaluates whether the edited surrogate can be transferred back to the private source with the edit effect preserved. We address each task with a dedicated method: ERMA predicts surrogate editability through instruction-aware multimodal relation modeling, while \method performs cycle-consistent recovery by using the surrogate editing pair as visual edit evidence and the source image as a source-preserving anchor. Experiments on SPPE and InstructPix2Pix show consistent improvements on both tasks. For editability assessment, ERMA improves over the best-performing baselines by 13.9% in SRCC and 12.3% in PLCC. For surrogate-to-source edit recovery, C2E-S2SER outperforms SOER across all 8 source integrity and edit consistency metrics on SPPE.
+      },
+      pdf={https://arxiv.org/abs/2606.07171}, 
+}
+
+@misc{xu2026seeingexposingadaptiveprivacy,
+      title={Seeing Without Exposing: Adaptive Privacy Control for Open-World, Context-Hungry MLLMs}, 
+      author={Siyuan Xu and Yibing Liu+ and Peilin Chen and Yung-Hui Li and Shiqi Wang and Sam Kwong},
+      year={2026},
+      eprint={2606.07175},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      abbr={Preprint},
+      abstract={
+Multimodal large language models (MLLMs) have raised new privacy challenges. On the data side, user-provided inputs often include unpredictable sensitive information; while on the downstream task side, model reasoning depends on rich visual context that may itself be privacy-sensitive. Existing privacy protection methods, however, rely on predefined sensitive categories and fixed obfuscation strategies, struggling to tackle such challenges in MLLMs. To address this dilemma, we propose Anchored Privacy Drifting (APD), a training-free method that drifts privacy-sensitive elements toward semantically equivalent alternatives while anchoring contextual cues to the source image. To systematically evaluate this dual objective of privacy protection and contextual preservation, we introduce AdaptShield, a comprehensive benchmark covering 22 privacy categories, which combines conventional privacy metrics with MLLM-based assessments of contextual utility. Extensive experiments show that our method achieves balanced improvements in both privacy sanitization and content retention, with average gains of 10.4% on textual categories and 8.5% under MLLM-based evaluation across four MLLM series, i.e., Qwen2.5, Qwen3, InternVL3, and InternVL3.5.
+      },
+      pdf={https://arxiv.org/abs/2606.07175}, 
+}
+
+@misc{chen2026raiseragdesignarchitecture,
+      title={RAISE: RAG Design as an Architecture Search Problem}, 
+      author={Zhen Chen and Yibing Liu+ and Weihao Xie and Yu Liang and Peilin Chen and Shiqi Wang},
+      year={2026},
+      eprint={2605.30029},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      abbr={Preprint},
+      abstract={
+Retrieval-augmented generation (RAG) systems expose numerous design choices spanning query rewriting, chunking, retrieval depth, reranking, and context compression. In practice, these choices are often configured through heuristics, hindering systematic evaluation and reproducibility across settings. We argue that this challenge is best formulated as RAG architecture search. To support controlled and reproducible study of this problem, we introduce the RAG Intelligence Search Engine (RAISE), a comprehensive framework and benchmark for RAG hyperparameter optimization, which evaluates optimization methods for RAG pipelines under standardized search spaces and budgets. RAISE implements 13 search algorithms and evaluates them across seven public text and multimodal datasets using three random seeds. Our experiments show that optimization performance is highly task-dependent: methods that perform strongly on one dataset may not generalize consistently across others, cautioning against interpreting aggregate rankings as evidence of universally superior strategies. RAISE provides a common experimental substrate for fair, reproducible, and systematic research on RAG hyperparameter optimization.
+      },
+      pdf={https://arxiv.org/abs/2605.30029}, 
+      code={https://github.com/family99chen/RAISE},
+}
+
+@misc{ma2026thinkingcompressionreasoningmodel,
+      title={Thinking as Compression: Your Reasoning Model is Secretly a Context Compressor}, 
+      author={Guoxin Ma and Yibing Liu+ and Chengzhengxu Li and Yu Liang and Yan Wang and Yueyang Zhang and Kecheng Chen and Zhaohan Zhang and Zhiyuan Sun and Daiting Shi},
+      year={2026},
+      eprint={2605.28713},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      abbr={Preprint},
+      abstract={
+Context compression aims to shorten long context inputs with minimal information loss for LLM inference acceleration. While existing methods have shown promise, they typically rely on complex compression modules or compression-specific training, leaving the intrinsic capabilities of LLMs underexplored. In contrast, this work reveals that a thinking model itself can naturally compress long contexts by organizing task-relevant information. We thus derive Thinking as Compression (TaC), a new compression paradigm that treats thinking itself as compressed context. Without relying on specific dedicated compressor, TaC directly prompts the thinking model to generate thinking traces as the shortened context, already outperforming most representative compression methods. Further, given that raw thinking output may struggle with budget control and shortcut behaviors, we introduce Thinking as Compression Constrained (TaC-C), leveraging a simple reward-driven optimization framework to elicit intrinsic thinking as compact and controllable compressed context. Experiments across four long-context QA benchmarks demonstrate that TaC-C consistently outperforms existing baselines. At 4x and 8x compression ratios, it surpasses the strongest competitor by 17.4% and 23.4% in average F1, and by 15.7% and 21.7% in average Exact Match Score (EM), respectively.
+      },      pdf={https://arxiv.org/abs/2605.28713}, 
+}
+
+@misc{chen2026selfdistilledtrajectoryawareboltzmannmodeling,
+      title={Self-Distilled Trajectory-Aware Boltzmann Modeling: Bridging the Training-Inference Discrepancy in Diffusion Language Models}, 
+      author={Kecheng Chen and Ziru Liu and Xijia Tao and Hui Liu and Yibing Liu and Xinyu Fu and Shi Wu and Suiyun Zhang and Dandan Tu and Lingpeng Kong and Rui Liu and Haoliang Li},
+      year={2026},
+      eprint={2605.11854},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      abbr={Preprint},
+      abstract={
+Diffusion Language Models (DLMs) have recently emerged as a promising alternative to autoregressive language models, offering stronger global awareness and highly parallel generation. However, post-training DLMs with standard Negative Evidence Lower Bound (NELBO)-based supervised fine-tuning remains inefficient: training reconstructs randomly masked tokens in a single step, whereas inference follows a confidence-guided, multi-step easy-to-hard denoising trajectory. Recent trajectory-based self-distillation methods exploit such inference trajectories mainly for sampling-step compression and acceleration, often improving decoding efficiency without substantially enhancing the model's underlying capability, and may even degrade performance under full diffusion decoding. In this work, we ask whether self-distilled trajectories can be used not merely for faster inference, but for genuine knowledge acquisition. Although these trajectories lie on the pretrained DLM's own distributional manifold and thus offer a potentially lower optimization barrier, we find that naively fine-tuning on them with standard NELBO objectives yields only marginal gains. To address this limitation, we propose \textbf{T}rajectory-\textbf{A}ligned optimization via \textbf{Bo}ltzmann \textbf{M}odeling (\textbf{TABOM}), a self-distilled trajectory-based post-training framework that aligns training with the easy-to-hard structure of inference. TABOM models the inference unmasking preference as a Boltzmann distribution over predictive entropies and derives a tractable pairwise ranking objective to align the model's certainty ordering with the observed decoding trajectory. Empirically, TABOM achieves substantial gains in new domains, expands the effective knowledge boundary of DLMs, and significantly mitigates catastrophic forgetting compared with standard SFT.
+      },      pdf={https://arxiv.org/abs/2605.11854},
+      code={https://tonyckc.github.io/TABOM-web},
+}
+
+
 @inproceedings{Xu2026aaai,
   abstract={
     Privacy leakage in Multimodal Large Language Models (MLLMs) has long been an intractable problem. Existing studies, though effectively obscure private information in MLLMs, often overlook the evaluation of authenticity and recovery quality of user privacy. To this end, this work uniquely focuses on the critical challenge of how to restore surrogate-driven protected data in diverse MLLM scenarios. We first bridge this research gap by contributing the SPPE (Surrogate Privacy Protected Editable) dataset, which includes a wide range of privacy categories and user instructions to simulate real MLLM applications. This dataset offers protected surrogates alongside their various MLLM-edited versions, thus enabling the direct assessment of privacy recovery quality. By formulating privacy recovery as a guided generation task conditioned on complementary multimodal signals, we further introduce a unified approach that reliably reconstructs private content while preserving the fidelity of MLLM-generated edits. The experiments on both SPPE and InstructPix2Pix further show that our approach generalizes well across diverse visual content and editing tasks, achieving a strong balance between privacy protection and MLLM usability.

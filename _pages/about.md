@@ -41,7 +41,7 @@ honors_content: |+
 
 I am currently a Researcher at Baidu Inc., working on the AI Search team. I received my Ph.D. degree from [City University of Hong Kong](https://www.cityu.edu.hk/) in 2025, where I worked with [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/). From Mar. 2024 to Sep. 2024, I was a visiting scholar at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), under the supervision of [Prof. Lei Ma](https://www.malei.org). Before that, I received my B.E. degree in School of Computer Science from [Shandong University](https://www.en.sdu.edu.cn) with first class honours in 2020. 
 
-**Research:** I have broad interests in Efficient long-context LLM inference and Trustworthy machine learning. I am enthusiastic about understanding the internal workings of machine learning algorithms and designing tools to make them effcient, explainable, and robust. 
+**Research:** I study Efficient Long-Context LLM Inference and Trustworthy ML. My goal is to open the "black box" of algorithms and build solutions that make them faster, more transparent, and more reliable.
 
 
 [//]: # (<details>)
