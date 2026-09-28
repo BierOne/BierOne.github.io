@@ -83,14 +83,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-one-paper-gets-accepted-in-iclr-2024-with-spotlight-presentation-top-5-we-present-neuron-activation-coverage-nac-that-works-for-both-ood-detection-and-generalization-problems",
-          title: 'One paper gets accepted in ICLR 2024 with Spotlight presentation (Top 5%). We...',
+            },},{id: "news-i-am-looking-for-the-research-interns-working-on-llm-acceleration-or-on-policy-distillation-please-contact-me-if-you-are-interested-via-lyibing-cs-bytedance-com",
+          title: 'I am looking for the research interns working on LLM acceleration or on-policy...',
           description: "",
-          section: "News",},{id: "news-one-paper-gets-accepted-in-tip-2024-this-paper-dicusses-the-feature-alignment-problem-of-the-contrastive-learning-and-presents-a-high-level-concept-contrast-approach",
-          title: 'One paper gets accepted in TIP 2024. This paper dicusses the feature alignment...',
-          description: "",
-          section: "News",},{id: "news-i-am-looking-for-the-research-interns-working-on-llm-inference-acceleration-please-contact-me-if-you-are-interested-via-liuyibing03-baidu-com",
-          title: 'I am looking for the research interns working on LLM inference acceleration. Please...',
+          section: "News",},{id: "news-one-paper-gets-accepted-in-neurips-2026-with-initial-reviews-5-5-4-this-work-reveals-a-size-fidelity-paradox-in-the-context-compression-of-llms-and-it-was-done-by-my-very-first-intern-congrats",
+          title: 'One paper gets accepted in NeurIPS 2026 with initial reviews 5/5/4. This work...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
