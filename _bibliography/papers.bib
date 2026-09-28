@@ -1,6 +1,20 @@
 ---
 ---
 
+
+@InProceedings{guo2026morellmscalingparadox,
+      title={When Less is More: The LLM Scaling Paradox in Context Compression}, 
+      author={Ruishan Guo and Yibing Liu+ and Guoxin Ma and Yan Wang and Yueyang Zhang and Long Xia and Kecheng Chen and Zhiyuan Sun and Daiting Shi},
+      year={2026},
+      booktitle={the Fortieth Annual Conference on Neural Information Processing Systems},
+      abbr={NeurIPS'26},
+      pdf={https://arxiv.org/abs/2602.09789},       
+      abstract={
+Scaling up model parameters has long been a prevalent training paradigm driven by the assumption that larger models yield superior generation capabilities. However, under lossy context compression in a compressor--decoder setup, we find a \textbf{\textit{Size-Fidelity Paradox}}: increasing compressor size can lessen the faithfulness of reconstructed contexts though reconstruction error decreases. Across 27 compressor setups spanning model families, scales, and compression rates, we coin this paradox arising from two dominant factors: 1) \textit{knowledge overwriting}: larger models increasingly replace source facts with their own prior beliefs, \textit{e.g.}, ``the white strawberry`` → ``the red strawberry``; and 2) \textit{semantic drift}: larger models tend to paraphrase or restructure content instead of reproducing it verbatim, \textit{e.g.}, ``Alice hit Bob`` → ``Bob hit Alice``. Interestingly, this paradox persists across varied settings, with mid-sized compressors often outperforming larger ones in faithful recovery. By analyzing the compressed memory via embedding geometry and reconstruction determinacy, we further reveal that compressors tend to organize memory across broader semantic subspaces, yielding more ambiguous representations prone to overwriting, drift, and weakened recovery. These findings complement existing evaluations of context compression and expose a breakdown of scaling laws when the objective shifts from plausible generation to faithful preservation.      },
+      selected={true}
+}
+
+
 @misc{liu2025enhancingzeroshotimagerecognition,
       title={Enhancing Zero-Shot Image Recognition in Vision-Language Models through Human-like Concept Guidance}, 
       author={Hui Liu and Wenya Wang and Kecheng Chen and Jie Liu and Yibing Liu and Tiexin Qin and Peisong He and Xinghao Jiang and Haoliang Li},
@@ -68,8 +82,11 @@ Retrieval-augmented generation (RAG) systems expose numerous design choices span
       abbr={Preprint},
       abstract={
 Context compression aims to shorten long context inputs with minimal information loss for LLM inference acceleration. While existing methods have shown promise, they typically rely on complex compression modules or compression-specific training, leaving the intrinsic capabilities of LLMs underexplored. In contrast, this work reveals that a thinking model itself can naturally compress long contexts by organizing task-relevant information. We thus derive Thinking as Compression (TaC), a new compression paradigm that treats thinking itself as compressed context. Without relying on specific dedicated compressor, TaC directly prompts the thinking model to generate thinking traces as the shortened context, already outperforming most representative compression methods. Further, given that raw thinking output may struggle with budget control and shortcut behaviors, we introduce Thinking as Compression Constrained (TaC-C), leveraging a simple reward-driven optimization framework to elicit intrinsic thinking as compact and controllable compressed context. Experiments across four long-context QA benchmarks demonstrate that TaC-C consistently outperforms existing baselines. At 4x and 8x compression ratios, it surpasses the strongest competitor by 17.4% and 23.4% in average F1, and by 15.7% and 21.7% in average Exact Match Score (EM), respectively.
-      },      pdf={https://arxiv.org/abs/2605.28713}, 
+      },      
+      pdf={https://arxiv.org/abs/2605.28713}, 
 }
+
+
 
 @misc{chen2026selfdistilledtrajectoryawareboltzmannmodeling,
       title={Self-Distilled Trajectory-Aware Boltzmann Modeling: Bridging the Training-Inference Discrepancy in Diffusion Language Models}, 
@@ -95,7 +112,7 @@ Diffusion Language Models (DLMs) have recently emerged as a promising alternativ
                   Peilin Chen and Yung-Hui Li and
                   Shiqi Wang and Sam Kwong},
   title={When Privacy Meets Recovery: The Overlooked Half of Surrogate-Driven Privacy Preservation for {MLLM} Editing},
-  booktitle={The Fortieth AAAI Conference on Artificial Intelligence},
+  booktitle={the Fortieth AAAI Conference on Artificial Intelligence},
   year={2026},
   abbr={AAAI'26},
   award={Oral},
@@ -155,7 +172,6 @@ Diffusion Language Models (DLMs) have recently emerged as a promising alternativ
   pages={4377-4390},
   code={https://github.com/BierOne/coco},
   pdf={https://arxiv.org/abs/2211.06843},
-  selected={true},
   abstract={Learning invariant representations via contrastive learning has seen state-of-the-art performance in domain generalization (DG). Despite such success, in this paper, we find that its core learning strategy – feature alignment – could heavily hinder model generalization. Drawing insights in neuron interpretability, we characterize this problem from a neuron activation view. Specifically, by treating feature elements as neuron activation states, we show that conventional alignment methods tend to deteriorate the diversity of learned invariant features, as they indiscriminately minimize all neuron activation differences. This instead ignores rich relations among neurons – many of them often identify the same visual concepts despite differing activation patterns. With this finding, we present a simple yet effective approach, Concept Contrast (CoCo), which relaxes element-wise feature alignments by contrasting high-level concepts encoded in neurons. Our CoCo performs in a plug-and-play fashion, thus it can be integrated into any contrastive method in DG. We evaluate CoCo over four canonical contrastive methods, showing that CoCo promotes the diversity of feature representations and consistently improves model generalization capability. By decoupling this success through neuron coverage analysis, we further find that CoCo potentially invokes more meaningful neurons during training, thereby improving model learning.},
 }
 

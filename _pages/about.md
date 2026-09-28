@@ -4,7 +4,7 @@ title: about
 permalink: /
 subtitle: |+
   Researcher, <br>
-  <a href="ir.baidu.com">Baidu Search</a> <br>
+  <a href="www.bytedance.com/en/">Bytedance</a> <br>
 
 profile:
   image: profile.jpg
@@ -25,7 +25,7 @@ teaching_content: |+
 
 services: true # includes professional services at the bottom of the page
 services_content: |+
-  <b>Conference Reviewer</b>: ICLR 2025, ICML 2024, ICLR 2024, NeruIPS 2023, ICML 2022 <br>
+  <b>Conference Reviewer</b>: NeruIPS 2026, ICLR 2025, ICML 2024, ICLR 2024, NeruIPS 2023 <br>
   <b>Journal Reviewer</b>: IEEE TPAMI, TKDE, TCYB, TCSVT, ACM ToMM <br>
   <b>Invited PC member</b> for short papers track at WWW 2024 <br>
 
@@ -39,7 +39,7 @@ honors_content: |+
   <!-- <b> National Scholarship for Encouragement</b>, 2018 <br> -->
 
 
-I am currently a Researcher at Baidu Inc., working on the AI Search team. I received my Ph.D. degree from [City University of Hong Kong](https://www.cityu.edu.hk/) in 2025, where I worked with [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/). From Mar. 2024 to Sep. 2024, I was a visiting scholar at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), under the supervision of [Prof. Lei Ma](https://www.malei.org). Before that, I received my B.E. degree in School of Computer Science from [Shandong University](https://www.en.sdu.edu.cn) with first class honours in 2020. 
+I am currently a Researcher at Bytedance Inc., working on the AI Search team. I received my Ph.D. degree from [City University of Hong Kong](https://www.cityu.edu.hk/) in 2025, where I worked with [Prof. Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/). From Mar. 2024 to Sep. 2024, I was a visiting scholar at [The University of Tokyo](https://www.u-tokyo.ac.jp/en/), under the supervision of [Prof. Lei Ma](https://www.malei.org). Before that, I received my B.E. degree in School of Computer Science from [Shandong University](https://www.en.sdu.edu.cn) with first class honours in 2020. 
 
 **Research:** I study Efficient Long-Context LLM Inference and Trustworthy ML. My goal is to open the "black box" of algorithms and build solutions that make them faster, more transparent, and more reliable.
 
@@ -56,7 +56,7 @@ I am currently a Researcher at Baidu Inc., working on the AI Search team. I rece
 
 **Mis:** 
 I love backpacking and adventuring. In 2024, I set out on my first backpacking journey, traveling across Japan 🇯🇵 in two months -- from the southern warmth of Okinawa to the northern beauty of Hokkaido, with stops in Kyushu and Kansai along the way.
-In 2025, I continued my travels through Egypt 🇪🇬 and Turkey 🇹🇷. I met incredible people from different countries and walks of life. They lifted my spirits in ways I never expected and helped me discover more about myself. I’m deeply grateful for these [experience](https://bierone.github.io/blog/).
+In 2025, I continued my travels through Egypt 🇪🇬 and Turkey 🇹🇷. I met incredible people from different countries and walks of life. They lifted my spirits in ways I've never expected and helped me discover more about myself. I’m deeply grateful for these [experience](https://bierone.github.io/blog/).
 
 
 
